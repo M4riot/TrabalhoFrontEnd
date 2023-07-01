@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+    background: linear-gradient(90deg, #4f2e0d, #b1590d, #4f2e0d);
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.background {
+    background: linear-gradient(90deg, #bf6411, #e0aa39, #e1b62c, #e0aa39, #bf6411);
+    height: 100%;
+}
+
+.loading {
+    height: 100vh;
+    background: linear-gradient(90deg, #bf6411, #e0aa39, #e1b62c, #e0aa39, #bf6411);
+    display: flex;
+    flex: row;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.spinner {
+    padding: 16px;
+}
+
+.loadingFont {
+    font-size: 50px;
+    color: #000;
+}
+
+.body {
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 50px;
+}
